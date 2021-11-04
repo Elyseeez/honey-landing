@@ -1,0 +1,30 @@
+.footer { 
+    height: 200px;
+    background: #E58211;
+    margin-top: 40px;
+    &__wrapper { 
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 65px 100px;
+    }
+    &__subtitle { 
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        text-align: start;
+    }
+    &__atstore { 
+        margin-left: 90px;
+    }
+    ul {
+        display: flex;
+        align-items: baseline;
+    }
+    li { 
+        margin-left: 15px;
+    }
+    img { 
+        margin-left: 15px;
+    }
+}

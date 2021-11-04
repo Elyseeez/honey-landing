@@ -1,0 +1,28 @@
+.main { 
+    background-image: url('../../assets/background/mainbg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 900px;
+    border-radius: 90px;
+    &__text { 
+        padding-top: 120px;
+        padding-left: 110px;
+    }
+    &__title {
+        color: #0B0B0B;
+        font-size: 80px;
+        line-height: 110px;
+    }
+    &__subtitle {
+        color: #0B0B0B;
+        font-size: 80px;
+        line-height: 110px;
+        padding-left: 88px;
+    }
+    &__subtitlesecond { 
+        color: #0B0B0B;
+        font-size: 80px;
+        line-height: 110px;
+        padding-left: 256px;
+    }
+}

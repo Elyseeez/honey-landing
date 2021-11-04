@@ -1,0 +1,17 @@
+// @import 'fonts';
+// @import 'variables';
+@import 'libs/normalize';
+
+@import 'components/all';
+
+
+
+body {
+  background-color: white;
+  padding: 40px 60px;
+  
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
+
+}

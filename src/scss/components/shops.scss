@@ -1,0 +1,18 @@
+.shops { 
+    margin-top: 120px;
+    &__title { 
+        text-align: left;
+        font-weight: bold;
+        font-size: 55px;
+    }
+    &__partners { 
+        margin-top: 50px;
+    }
+    ul { 
+        display: flex;
+        align-items: baseline;
+    }
+    li { 
+        margin-left: 110px;
+    }
+}

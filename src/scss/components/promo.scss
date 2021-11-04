@@ -1,0 +1,32 @@
+.promo { 
+    margin-top: 140px;
+    &__first-item { 
+       display: flex;
+    }
+    &__second-item { 
+        display: flex;
+     }
+    &__inner { 
+        margin-top: 160px;
+    }
+    &__title { 
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 70px;
+    }
+    &__subtitle {
+        margin-top: 35px;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 29px;
+    }
+    &__btn { 
+        margin-top: 75px;
+        width: 184px;
+        height: 59px;
+        background: #E68311;
+        color: #FFFFFF;
+        font-size: 18px;
+        border: none;
+    }
+}
